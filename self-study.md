@@ -1,4 +1,4 @@
-🔹 1. Git이란?
+##🔹 1. Git이란?
 
 Git은 소스 코드의 변경 이력을 관리하는 **분산 버전 관리 시스템(DVCS)**입니다.
 
@@ -12,7 +12,7 @@ Git은 소스 코드의 변경 이력을 관리하는 **분산 버전 관리 시
 
 속도 빠름: 로컬 저장소 기반으로 대부분의 작업 처리
 
-🔹 2. Git 기본 개념
+## 🔹 2. Git 기본 개념
 ✔ 저장소(Repository)
 
 로컬 저장소: 개인 컴퓨터에 있는 저장소
@@ -39,7 +39,7 @@ git push	로컬 → 원격 저장소 업로드
 git pull	원격 → 로컬 저장소 업데이트
 git branch	브랜치 목록/생성
 git merge	브랜치 병합
-🔹 3. GitHub이란?
+## 🔹 3. GitHub이란?
 
 GitHub은 Git 저장소를 서버에 관리할 수 있는 클라우드 협업 플랫폼입니다.
 
@@ -55,7 +55,7 @@ Fork & Star
 
 Actions(CI/CD 자동화)
 
-🔹 4. 브랜치(Branch) 전략
+## 🔹 4. 브랜치(Branch) 전략
 ✔ 브랜치란?
 
 코드의 독립적인 작업 공간. 새로운 기능 개발, 버그 수정 등에 사용.
@@ -74,7 +74,7 @@ Trunk-Based Development
 
 최소한의 브랜치, 자주 병합
 
-🔹 5. Pull Request(PR)
+## 🔹 5. Pull Request(PR)
 
 GitHub에서 협업 시 핵심 기능.
 
@@ -100,7 +100,7 @@ PR 생성
 
 Merge
 
-🔹 6. 협업 Workflow
+## 🔹 6. 협업 Workflow
 ✔ 일반적인 협업 과정
 
 저장소 Fork 또는 Clone
@@ -117,7 +117,7 @@ Pull Request 생성
 
 병합 후 브랜치 삭제
 
-🔹 7. 오픈소스 참여 절차
+## 🔹 7. 오픈소스 참여 절차
 
 관심 프로젝트 찾기
 
@@ -133,7 +133,7 @@ PR 제출
 
 Maintainer의 리뷰 반영
 
-🔹 8. Git & GitHub에서 자주 발생하는 문제들
+## 🔹 8. Git & GitHub에서 자주 발생하는 문제들
 문제	원인	해결 방법
 충돌(conflict)	다른 브랜치와 수정 부분이 겹침	수동으로 수정 후 commit
 push 거부	원격에 새 커밋이 있음	git pull --rebase 후 push
